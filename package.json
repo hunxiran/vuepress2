@@ -1,0 +1,32 @@
+{
+  "name": "vuepress2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "base deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunxiran/vuepress2.git"
+  },
+  "keywords": [
+    "vuepress",
+    "demo"
+  ],
+  "author": "hunxiran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hunxiran/vuepress2/issues"
+  },
+  "homepage": "https://github.com/hunxiran/vuepress2#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
